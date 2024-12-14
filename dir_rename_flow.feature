@@ -4,7 +4,7 @@ Feature: Directory renaming script
   So that they follow a desired numeric format.
 
   Scenario: Successfully renaming directories in a clean folder
-    Given I have a directory at "D:/TestDir"
+    Given I have a directory at "D:/4.\Courses"
     And the directory contains subdirectories
     |   subdir       |
     |   Projects     |
